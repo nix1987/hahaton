@@ -13,7 +13,7 @@
 			<Metadata name="Catalog.Автомобили.Attribute.ТипДвигателя" id="f3a9e873-04d2-442d-9472-5aba85a06d94"/>
 		</Metadata>
 		<Metadata name="Catalog.Статьи" id="d4336cfe-d594-47c1-88ea-00beebc6e60d" configVersion="43bca220acb0b8428741fc7c631905e100000000"/>
-		<Metadata name="Configuration.ДашбордРентабельности" id="ac2abb71-7ee2-47b5-8463-70ad318b2176" configVersion="759361abacbf5e4d99169075268e4ef800000000"/>
+		<Metadata name="Configuration.ДашбордРентабельности" id="ac2abb71-7ee2-47b5-8463-70ad318b2176" configVersion="74f04efa152d244380e15f01dbfe0f5400000000"/>
 		<Metadata name="Enum.Состояниее" id="a0413d2c-4101-415f-a32a-34ae216851b8" configVersion="7e22a8f43d036745bad52f4340474b9200000000">
 			<Metadata name="Enum.Состояниее.EnumValue.Среднее" id="0a958d47-9881-49f8-8a04-72197cc31112"/>
 			<Metadata name="Enum.Состояниее.EnumValue.Хорошее" id="73451328-7061-45f9-be47-29b7e4efcad7"/>
@@ -34,5 +34,6 @@
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.ТипОперации" id="de8bb46d-948c-48e4-bcff-7d4773b12012"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="b9f3f3bf05063b4eae1ad84dfe13935c00000000"/>
+		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="7bc8a629bc081642bd24aa06142cf07300000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

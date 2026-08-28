@@ -255,6 +255,7 @@
 			<Enum>ТипДвигателя</Enum>
 			<Enum>Состояниее</Enum>
 			<Enum>ТипОпераци</Enum>
+			<Report>ДашбордРентабельности</Report>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
 		</ChildObjects>
 	</Configuration>
