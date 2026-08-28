@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>ИсточникДанных1</name>
@@ -172,27 +172,12 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 			</dcsset:order>
-			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Заголовок</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дашборд рентабельности</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
-				</dcscor:item>
-			</dcsset:outputParameters>
 			<dcsset:conditionalAppearance>
 				<dcsset:item>
+					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:use>true</dcsset:use>
 							<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
 							<dcsset:comparisonType>Greater</dcsset:comparisonType>
 							<dcsset:right xsi:type="xs:decimal">25</dcsset:right>
@@ -212,10 +197,10 @@
 					</dcsset:presentation>
 				</dcsset:item>
 				<dcsset:item>
+					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:use>true</dcsset:use>
 							<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
 							<dcsset:comparisonType>Less</dcsset:comparisonType>
 							<dcsset:right xsi:type="xs:decimal">15</dcsset:right>
@@ -235,19 +220,17 @@
 					</dcsset:presentation>
 				</dcsset:item>
 				<dcsset:item>
+					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemGroup">
 							<dcsset:groupType>AndGroup</dcsset:groupType>
-							<dcsset:use>true</dcsset:use>
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:use>true</dcsset:use>
 								<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
 								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
 								<dcsset:right xsi:type="xs:decimal">15</dcsset:right>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
-								<dcsset:use>true</dcsset:use>
 								<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
 								<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
 								<dcsset:right xsi:type="xs:decimal">25</dcsset:right>
@@ -268,6 +251,25 @@
 					</dcsset:presentation>
 				</dcsset:item>
 			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дашборд рентабельности</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">

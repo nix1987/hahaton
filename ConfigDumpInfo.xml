@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Автомобили" id="c4cbe25c-67ca-4a9b-84c9-6bd0a90277cd" configVersion="9ded949873b7df45b58bc7cca34a9d2900000000">
+		<Metadata name="Catalog.Автомобили" id="c4cbe25c-67ca-4a9b-84c9-6bd0a90277cd" configVersion="945955f92612f14092f4f4ff4f6005f700000000">
 			<Metadata name="Catalog.Автомобили.Attribute.ОбъемДвигателя" id="16cfaeb2-01ec-4f2c-838b-3b1484b7d386"/>
 			<Metadata name="Catalog.Автомобили.Attribute.Модель" id="2203994e-5660-41d6-bc78-83074ff7ceed"/>
 			<Metadata name="Catalog.Автомобили.Attribute.ТипКоробкиПередач" id="7e8a719d-0584-4e35-8f7d-a87382c0e089"/>
@@ -12,45 +12,53 @@
 			<Metadata name="Catalog.Автомобили.Attribute.ГЗ" id="e99a3bbf-c357-4859-acae-f7e0ed703e1e"/>
 			<Metadata name="Catalog.Автомобили.Attribute.ТипДвигателя" id="f3a9e873-04d2-442d-9472-5aba85a06d94"/>
 		</Metadata>
-		<Metadata name="Catalog.Статьи" id="d4336cfe-d594-47c1-88ea-00beebc6e60d" configVersion="43bca220acb0b8428741fc7c631905e100000000"/>
-		<Metadata name="Configuration.ДашбордРентабельности" id="ac2abb71-7ee2-47b5-8463-70ad318b2176" configVersion="74f04efa152d244380e15f01dbfe0f5400000000"/>
-		<Metadata name="Enum.Состояниее" id="a0413d2c-4101-415f-a32a-34ae216851b8" configVersion="7e22a8f43d036745bad52f4340474b9200000000">
+		<Metadata name="Catalog.Статьи" id="d4336cfe-d594-47c1-88ea-00beebc6e60d" configVersion="1803ba2155b43b41a0d66f167ae70bb300000000"/>
+		<Metadata name="Configuration.ДашбордРентабельности" id="ac2abb71-7ee2-47b5-8463-70ad318b2176" configVersion="a9d4d1ef35a35343a6c95361f70e108800000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен" id="c43669d6-ad35-4df4-aa68-5089437871ac" configVersion="a436ea4d13a9334ebb0a81a460a51d8800000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.Form.Форма" id="c63ca04a-0ea2-4b7b-bf81-2bd6486909f8" configVersion="2e16a0be8fefc6418e6abbccfca1a6bf00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.Form.Форма.Form" id="c63ca04a-0ea2-4b7b-bf81-2bd6486909f8.0" configVersion="ba8b70c93664624f87cd9e94ef89b35600000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.ObjectModule" id="c43669d6-ad35-4df4-aa68-5089437871ac.0" configVersion="91df7e157424ac4aa7bb255a2b26d71600000000"/>
+		<Metadata name="DataProcessor.ПриложениеКлиент" id="6b2e8a1c-4d7f-4c93-9e5a-1f8b3c6d9a20" configVersion="e78c9a8c1189d34daace98e9fa8eed4100000000"/>
+		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35" configVersion="a365ea040af7ce42839733a1063e6bb700000000"/>
+		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма.Form" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35.0" configVersion="b7af91ecaa00064e88b3f7ffe53a1d7600000000"/>
+		<Metadata name="Enum.Состояниее" id="a0413d2c-4101-415f-a32a-34ae216851b8" configVersion="1c1815c93339e74bbaf2b7d75894133600000000">
 			<Metadata name="Enum.Состояниее.EnumValue.Среднее" id="0a958d47-9881-49f8-8a04-72197cc31112"/>
 			<Metadata name="Enum.Состояниее.EnumValue.Хорошее" id="73451328-7061-45f9-be47-29b7e4efcad7"/>
 			<Metadata name="Enum.Состояниее.EnumValue.Отличное" id="b9ce5d9e-9731-4207-85a4-1a3de52e0746"/>
 		</Metadata>
-		<Metadata name="Enum.ТипДвигателя" id="b8c9740b-2509-4298-9394-12f09a8f0e20" configVersion="a54161f2c2e451479bb34665956fc13000000000">
+		<Metadata name="Enum.ТипДвигателя" id="b8c9740b-2509-4298-9394-12f09a8f0e20" configVersion="f1123e9e810a33439e40a982680df57c00000000">
 			<Metadata name="Enum.ТипДвигателя.EnumValue.Бензин" id="66b7161e-fe44-4cfc-b253-c2cefbc8c386"/>
 			<Metadata name="Enum.ТипДвигателя.EnumValue.Электро" id="bf56800d-57d6-4e17-9fcb-b5d5048e9f24"/>
 		</Metadata>
-		<Metadata name="Enum.ТипОпераци" id="05ccc07f-f1ca-429c-8cde-5aa513147eb6" configVersion="c01b24feb298b24cb5715925da1e23c400000000">
+		<Metadata name="Enum.ТипОпераци" id="05ccc07f-f1ca-429c-8cde-5aa513147eb6" configVersion="26f7deb82067b240bff9e8b36e82f20b00000000">
 			<Metadata name="Enum.ТипОпераци.EnumValue.Доход" id="75857917-3352-439b-8bce-a35f48d7762a"/>
 			<Metadata name="Enum.ТипОпераци.EnumValue.Расход" id="f9f781cd-d9ed-4002-b19b-fd33649946e0"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ОперацииСАвто" id="1f03e21f-e71b-4f7d-973a-40e1b22f9749" configVersion="74446bb0445ec54f8360fb3a5118ae0f00000000">
+		<Metadata name="HTTPService.АвтоИЦены" id="e7a4c1b8-3f2d-4a6e-9c15-8b0d47e2a91c" configVersion="591751f398a26444b38cfcbd47857b3800000000">
+			<Metadata name="HTTPService.АвтоИЦены.URLTemplate.Корень" id="1c8f6a2e-4b59-4d71-a3e8-0f2c9d5b7a14"/>
+			<Metadata name="HTTPService.АвтоИЦены.URLTemplate.Корень.Method.GET" id="9d3e5b7a-1c4f-48a2-b6d0-2e8f1a3c5d79"/>
+		</Metadata>
+		<Metadata name="HTTPService.АвтоИЦены.Module" id="e7a4c1b8-3f2d-4a6e-9c15-8b0d47e2a91c.0" configVersion="b178d8f3b9324b4abe347dab047b479f00000000"/>
+		<Metadata name="InformationRegister.ОперацииСАвто" id="1f03e21f-e71b-4f7d-973a-40e1b22f9749" configVersion="2c48ce6b702d1b4a9dce63894ff2209700000000">
 			<Metadata name="InformationRegister.ОперацииСАвто.Resource.Сумма" id="0c2df223-f97c-40d1-99e7-88639acc0434"/>
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.Автомобиль" id="2d0fc4f2-e622-4c79-85f7-83a9e1a5d957"/>
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.Статья" id="8e6727b8-f465-42af-8d1c-4188c36be8d3"/>
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.ТипОперации" id="de8bb46d-948c-48e4-bcff-7d4773b12012"/>
 		</Metadata>
-		<Metadata name="InformationRegister.СредниеЦены" id="854ea408-b3be-4361-b200-50b4d6e7791b" configVersion="2cfaf603ffbe4ef88e1710a40cba13fd00000000">
+		<Metadata name="InformationRegister.СредниеЦены" id="854ea408-b3be-4361-b200-50b4d6e7791b" configVersion="0f0a8b384e1382499395702a99635ce000000000">
 			<Metadata name="InformationRegister.СредниеЦены.Resource.СредняяЦена" id="25db9de9-b9f0-4fc0-9dda-49e11bc36209"/>
 			<Metadata name="InformationRegister.СредниеЦены.Dimension.Автомобиль" id="9967d43d-e09a-45bd-90f7-9156ae874a00"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен" id="c43669d6-ad35-4df4-aa68-5089437871ac" configVersion="0000000000000000000000000000000000000000">
-			<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.Form.Форма" id="c63ca04a-0ea2-4b7b-bf81-2bd6486909f8"/>
-		</Metadata>
-		<Metadata name="DataProcessor.ПриложениеКлиент" id="6b2e8a1c-4d7f-4c93-9e5a-1f8b3c6d9a20" configVersion="0000000000000000000000000000000000000000">
-			<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35"/>
-		</Metadata>
-		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="b9f3f3bf05063b4eae1ad84dfe13935c00000000"/>
-		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="7bc8a629bc081642bd24aa06142cf07300000000">
-			<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459"/>
-		</Metadata>
-		<Metadata name="Subsystem.Рентабельность" id="740c7109-0efd-4a44-a82e-f4b44fa3d473" configVersion="bb6ae99c966844bba6f469a263af50bd00000000"/>
-		<Metadata name="HTTPService.АвтоИЦены" id="e7a4c1b8-3f2d-4a6e-9c15-8b0d47e2a91c" configVersion="0000000000000000000000000000000000000000">
-			<Metadata name="HTTPService.АвтоИЦены.URLTemplate.Корень" id="1c8f6a2e-4b59-4d71-a3e8-0f2c9d5b7a14"/>
-			<Metadata name="HTTPService.АвтоИЦены.URLTemplate.Корень.Method.GET" id="9d3e5b7a-1c4f-48a2-b6d0-2e8f1a3c5d79"/>
-		</Metadata>
+		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="fb581e20c3fb7b4090aedc25547b15ae00000000"/>
+		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="c37937409d780247bba323dd2cff766700000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459" configVersion="7db5d3e258f336489ab9f7cdf56492cd00000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a14c296a-f8c9-4341-8dca-15b6d5037459.0" configVersion="baeb23e44323de42a17fc5945c52a25a00000000"/>
+		<Metadata name="Style.Ситидрайв" id="49076e28-92a2-4104-853a-dfb4a11149f6" configVersion="8fcf5fcaded6cd47900ae6f50911ae2e00000000"/>
+		<Metadata name="Style.Ситидрайв.Style" id="49076e28-92a2-4104-853a-dfb4a11149f6.0" configVersion="06e358227b8cb84eb2e9513c84aa551f00000000"/>
+		<Metadata name="StyleItem.СитидрайвЗеленый" id="ca99ca7a-9b5f-4c19-a087-d9c2c6981649" configVersion="13f48e1e9c7558498a0e93c55de2331900000000"/>
+		<Metadata name="StyleItem.СитидрайвСерый" id="1516fccb-87f2-4e23-9c16-a469e409f683" configVersion="7b4fa2fd3e0df84ea960b328e1b9bb4e00000000"/>
+		<Metadata name="StyleItem.СитидрайвТекст" id="4850d7a4-333d-4fb2-9e90-beecd67f433b" configVersion="fcd41d0710cbf54091bf9116bf91382000000000"/>
+		<Metadata name="StyleItem.СитидрайвФиолетовый" id="47467fd6-55f9-4162-810d-459305ad6d46" configVersion="a20ec2beda2ec0489f7010b944fb61da00000000"/>
+		<Metadata name="Subsystem.Рентабельность" id="740c7109-0efd-4a44-a82e-f4b44fa3d473" configVersion="740878b7d4dfcf4bb34e4717d4e17d7700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
