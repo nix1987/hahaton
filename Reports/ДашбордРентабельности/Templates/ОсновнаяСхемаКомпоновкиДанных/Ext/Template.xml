@@ -109,7 +109,7 @@
 	</calculatedField>
 	<calculatedField>
 		<dataPath>Продаем</dataPath>
-		<expression>Ложь</expression>
+		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4) &lt; 15</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -174,7 +174,6 @@
 			</dcsset:order>
 			<dcsset:conditionalAppearance>
 				<dcsset:item>
-					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -186,7 +185,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:Red</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">web:Salmon</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -195,9 +194,17 @@
 							<v8:content>Рентабельность больше 25%</v8:content>
 						</v8:item>
 					</dcsset:presentation>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+					<dcsset:useInResourceFieldsHeader>DontUse</dcsset:useInResourceFieldsHeader>
+					<dcsset:useInOverallHeader>DontUse</dcsset:useInOverallHeader>
+					<dcsset:useInOverallResourceFieldsHeader>DontUse</dcsset:useInOverallResourceFieldsHeader>
 				</dcsset:item>
 				<dcsset:item>
-					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -209,7 +216,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:LimeGreen</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">web:MediumSpringGreen</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -218,9 +225,17 @@
 							<v8:content>Рентабельность меньше 15%</v8:content>
 						</v8:item>
 					</dcsset:presentation>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+					<dcsset:useInResourceFieldsHeader>DontUse</dcsset:useInResourceFieldsHeader>
+					<dcsset:useInOverallHeader>DontUse</dcsset:useInOverallHeader>
+					<dcsset:useInOverallResourceFieldsHeader>DontUse</dcsset:useInOverallResourceFieldsHeader>
 				</dcsset:item>
 				<dcsset:item>
-					<dcsset:use>false</dcsset:use>
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemGroup">
@@ -240,7 +255,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">web:Yellow</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">web:LemonChiffon</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 					<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -249,6 +264,15 @@
 							<v8:content>Рентабельность от 15% до 25%</v8:content>
 						</v8:item>
 					</dcsset:presentation>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+					<dcsset:useInResourceFieldsHeader>DontUse</dcsset:useInResourceFieldsHeader>
+					<dcsset:useInOverallHeader>DontUse</dcsset:useInOverallHeader>
+					<dcsset:useInOverallResourceFieldsHeader>DontUse</dcsset:useInOverallResourceFieldsHeader>
 				</dcsset:item>
 			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
