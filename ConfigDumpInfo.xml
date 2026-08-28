@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Автомобили" id="c4cbe25c-67ca-4a9b-84c9-6bd0a90277cd" configVersion="9ded949873b7df45b58bc7cca34a9d2900000000">
+			<Metadata name="Catalog.Автомобили.Attribute.ОбъемДвигателя" id="16cfaeb2-01ec-4f2c-838b-3b1484b7d386"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Модель" id="2203994e-5660-41d6-bc78-83074ff7ceed"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ТипКоробкиПередач" id="7e8a719d-0584-4e35-8f7d-a87382c0e089"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ГодВыпуска" id="9692f601-310f-4fe8-8e10-a3bb40a0401e"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Состояние" id="ad31ec02-88d5-41a2-b68a-5094c1c0a7a9"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Марка" id="c2a3f225-e061-4420-aadf-7eb63817ee2d"/>
+			<Metadata name="Catalog.Автомобили.Attribute.Пробег" id="e79951a9-737d-48f5-b7cc-0deb5858a1ae"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ГЗ" id="e99a3bbf-c357-4859-acae-f7e0ed703e1e"/>
+			<Metadata name="Catalog.Автомобили.Attribute.ТипДвигателя" id="f3a9e873-04d2-442d-9472-5aba85a06d94"/>
+		</Metadata>
+		<Metadata name="Catalog.Статьи" id="d4336cfe-d594-47c1-88ea-00beebc6e60d" configVersion="43bca220acb0b8428741fc7c631905e100000000"/>
+		<Metadata name="Configuration.ДашбордРентабельности" id="ac2abb71-7ee2-47b5-8463-70ad318b2176" configVersion="759361abacbf5e4d99169075268e4ef800000000"/>
+		<Metadata name="Enum.Состояниее" id="a0413d2c-4101-415f-a32a-34ae216851b8" configVersion="7e22a8f43d036745bad52f4340474b9200000000">
+			<Metadata name="Enum.Состояниее.EnumValue.Среднее" id="0a958d47-9881-49f8-8a04-72197cc31112"/>
+			<Metadata name="Enum.Состояниее.EnumValue.Хорошее" id="73451328-7061-45f9-be47-29b7e4efcad7"/>
+			<Metadata name="Enum.Состояниее.EnumValue.Отличное" id="b9ce5d9e-9731-4207-85a4-1a3de52e0746"/>
+		</Metadata>
+		<Metadata name="Enum.ТипДвигателя" id="b8c9740b-2509-4298-9394-12f09a8f0e20" configVersion="a54161f2c2e451479bb34665956fc13000000000">
+			<Metadata name="Enum.ТипДвигателя.EnumValue.Бензин" id="66b7161e-fe44-4cfc-b253-c2cefbc8c386"/>
+			<Metadata name="Enum.ТипДвигателя.EnumValue.Электро" id="bf56800d-57d6-4e17-9fcb-b5d5048e9f24"/>
+		</Metadata>
+		<Metadata name="Enum.ТипОпераци" id="05ccc07f-f1ca-429c-8cde-5aa513147eb6" configVersion="c01b24feb298b24cb5715925da1e23c400000000">
+			<Metadata name="Enum.ТипОпераци.EnumValue.Доход" id="75857917-3352-439b-8bce-a35f48d7762a"/>
+			<Metadata name="Enum.ТипОпераци.EnumValue.Расход" id="f9f781cd-d9ed-4002-b19b-fd33649946e0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОперацииСАвто" id="1f03e21f-e71b-4f7d-973a-40e1b22f9749" configVersion="74446bb0445ec54f8360fb3a5118ae0f00000000">
+			<Metadata name="InformationRegister.ОперацииСАвто.Resource.Сумма" id="0c2df223-f97c-40d1-99e7-88639acc0434"/>
+			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.Автомобиль" id="2d0fc4f2-e622-4c79-85f7-83a9e1a5d957"/>
+			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.Статья" id="8e6727b8-f465-42af-8d1c-4188c36be8d3"/>
+			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.ТипОперации" id="de8bb46d-948c-48e4-bcff-7d4773b12012"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="b9f3f3bf05063b4eae1ad84dfe13935c00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
