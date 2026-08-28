@@ -232,7 +232,7 @@
 			<AllowedIncomingShareRequestTypes/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Ситидрайв</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -251,12 +251,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Рентабельность</Subsystem>
+			<StyleItem>СитидрайвЗеленый</StyleItem>
+			<StyleItem>СитидрайвСерый</StyleItem>
+			<StyleItem>СитидрайвТекст</StyleItem>
+			<StyleItem>СитидрайвФиолетовый</StyleItem>
+			<Style>Ситидрайв</Style>
 			<Catalog>Автомобили</Catalog>
 			<Catalog>Статьи</Catalog>
 			<Enum>ТипДвигателя</Enum>
 			<Enum>Состояниее</Enum>
 			<Enum>ТипОпераци</Enum>
 			<Report>ДашбордРентабельности</Report>
+			<DataProcessor>ЗаполнениеСреднихЦен</DataProcessor>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
 			<InformationRegister>СредниеЦены</InformationRegister>
 		</ChildObjects>

@@ -44,7 +44,7 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr 168px;
+  grid-template-columns: 1fr 176px;
   gap: 10px;
   align-items: start;
 }
@@ -141,6 +141,7 @@ body {
 }
 
 .btn {
+  width: 100%;
   border: 0;
   cursor: pointer;
   font-family: inherit;
@@ -160,6 +161,60 @@ body {
   background: #e8ebf1;
   color: var(--text);
   box-shadow: inset 0 0 0 1px #e2e6ee;
+}
+
+.pay-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.pay-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 10px;
+  border-radius: 16px;
+  background: #eef0f4;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.pay-link:hover {
+  color: #148f32;
+}
+
+.pay-link__icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.pay-link__icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.pay-link__icon--rub {
+  display: grid;
+  place-items: center;
+  background: #21A038;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .insurance {
@@ -278,6 +333,6 @@ body {
   }
 
   .hero {
-    grid-template-columns: 1fr 140px;
+    grid-template-columns: 1fr 160px;
   }
 }
