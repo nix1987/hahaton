@@ -1,0 +1,29 @@
+---
+description: Обмен ценами автомобилей через папку exchange — сигнал request.signal
+alwaysApply: true
+---
+
+# Обмен через exchange/
+
+Если в проекте есть файл `exchange/request.signal`, это сигнал от обработки 1С **Заполнение средних цен**.
+
+## Что сделать
+
+1. Прочитать `exchange/cars-request.json` (массив `Автомобили` с `Идентификатор` и `Описание`).
+2. Для каждой строки найти среднюю цену на avito.ru и auto.ru по полю `Описание`.
+3. Записать `exchange/cars-prices.json` в формате:
+
+```json
+{
+  "Цены": [
+    {
+      "Идентификатор": "<как в запросе>",
+      "СредняяЦена": 0,
+      "Источник": "https://auto.ru/..."
+    }
+  ]
+}
+```
+
+4. Записать сигнал для 1С: `exchange/response.signal` с текстом `PRICE_RESPONSE`.
+5. Удалить `exchange/request.signal`.
