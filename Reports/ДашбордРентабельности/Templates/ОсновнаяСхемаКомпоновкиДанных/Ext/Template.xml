@@ -109,7 +109,7 @@
 	</calculatedField>
 	<calculatedField>
 		<dataPath>Продаем</dataPath>
-		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4) &lt; 15</expression>
+		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4) &lt; 20</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -141,6 +141,14 @@
 	<totalField>
 		<dataPath>Рентабельность</dataPath>
 		<expression>Окр(ВЫБОР КОГДА Сумма(СуммаРасходов) = 0 ТОГДА 0 ИНАЧЕ (Сумма(СуммаДоходов) - Сумма(СуммаРасходов)) / Сумма(СуммаРасходов) * 100 КОНЕЦ, 4)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Продаем</dataPath>
+		<expression>Максимум(Продаем)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПродажи</dataPath>
+		<expression>Максимум(СуммаПродажи)</expression>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
