@@ -25,7 +25,7 @@
 &НаКлиенте
 Функция ПутьКФайлуДемонстрации()
 	
-	Возврат "C:\Users\n.voroncov\Documents\hahaton\WEB_City\index.html";
+	Возврат "C:\Users\d.proskurnin\Desktop\Рабочий стол\Хатакон\dashrent\WEB_City\index.html";
 	
 КонецФункции
 

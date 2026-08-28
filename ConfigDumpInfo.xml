@@ -21,8 +21,8 @@
 		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.Form.Форма.Form" id="c63ca04a-0ea2-4b7b-bf81-2bd6486909f8.0" configVersion="3bffcf3ee7140545b31ecd3e9d01c23500000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеСреднихЦен.ObjectModule" id="c43669d6-ad35-4df4-aa68-5089437871ac.0" configVersion="15bafe0016f2404289131ee574df005100000000"/>
 		<Metadata name="DataProcessor.ПриложениеКлиент" id="6b2e8a1c-4d7f-4c93-9e5a-1f8b3c6d9a20" configVersion="3cfba1b44c3acc47b322565a628977fd00000000"/>
-		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35" configVersion="86e2896c1bb5ee4c8fc8f3de06e33ca200000000"/>
-		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма.Form" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35.0" configVersion="84f2aef18202a747b6a96180e7f693a400000000"/>
+		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35" configVersion="d4d1658f37f8044ea2b933661fa5653100000000"/>
+		<Metadata name="DataProcessor.ПриложениеКлиент.Form.Форма.Form" id="3a9c1e7b-5f24-4d81-b0c6-8e2a4f7d1b35.0" configVersion="87c783282aa830418b79379487cb6baf00000000"/>
 		<Metadata name="Enum.Состояниее" id="a0413d2c-4101-415f-a32a-34ae216851b8" configVersion="aaeaac82a61596419c03a1190daa85b100000000">
 			<Metadata name="Enum.Состояниее.EnumValue.Среднее" id="0a958d47-9881-49f8-8a04-72197cc31112"/>
 			<Metadata name="Enum.Состояниее.EnumValue.Хорошее" id="73451328-7061-45f9-be47-29b7e4efcad7"/>
@@ -53,8 +53,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="ee76b61514659443b70eb3b9d798963a00000000"/>
 		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="8e3b7d826c95ea49a73985508b0d5a8600000000"/>
-		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459" configVersion="72fbe7699ae004459e12baa1925eacf700000000"/>
-		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a14c296a-f8c9-4341-8dca-15b6d5037459.0" configVersion="1095bfa187f51c44b9110bceaf73e19c00000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459" configVersion="befc55826000804b907cfe3857a733ac00000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a14c296a-f8c9-4341-8dca-15b6d5037459.0" configVersion="7a12fd102d17094986803156df96b95500000000"/>
 		<Metadata name="Style.Ситидрайв" id="49076e28-92a2-4104-853a-dfb4a11149f6" configVersion="25b5adabddd3f245aad66a3cd5531ee000000000"/>
 		<Metadata name="Style.Ситидрайв.Style" id="49076e28-92a2-4104-853a-dfb4a11149f6.0" configVersion="d1726618785d9a4ab4a4583cf5cd5f0100000000"/>
 		<Metadata name="StyleItem.СитидрайвЗеленый" id="ca99ca7a-9b5f-4c19-a087-d9c2c6981649" configVersion="5b4aba8591a2a346b4361e644982c86700000000"/>

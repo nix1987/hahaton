@@ -134,7 +134,7 @@
 	</calculatedField>
 	<calculatedField>
 		<dataPath>Продаем</dataPath>
-		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4) &lt; 20</expression>
+		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4) &lt; 25</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -155,8 +155,25 @@
 	</totalField>
 	<totalField>
 		<dataPath>СуммаПродажи</dataPath>
-		<expression>Сумма(СуммаПродажи)</expression>
+		<expression>Максимум(СуммаПродажи)</expression>
 	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
