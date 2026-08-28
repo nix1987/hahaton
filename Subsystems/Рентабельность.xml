@@ -15,7 +15,7 @@
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
 			<Picture>
-				<xr:Abs>Picture.png</xr:Abs>
+				<xr:Ref>CommonPicture.Монетка</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
