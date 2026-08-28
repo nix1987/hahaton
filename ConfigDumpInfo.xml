@@ -33,7 +33,12 @@
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.Статья" id="8e6727b8-f465-42af-8d1c-4188c36be8d3"/>
 			<Metadata name="InformationRegister.ОперацииСАвто.Dimension.ТипОперации" id="de8bb46d-948c-48e4-bcff-7d4773b12012"/>
 		</Metadata>
+		<Metadata name="InformationRegister.СредниеЦены" id="854ea408-b3be-4361-b200-50b4d6e7791b" configVersion="2cfaf603ffbe4ef88e1710a40cba13fd00000000">
+			<Metadata name="InformationRegister.СредниеЦены.Resource.СредняяЦена" id="25db9de9-b9f0-4fc0-9dda-49e11bc36209"/>
+			<Metadata name="InformationRegister.СредниеЦены.Dimension.Автомобиль" id="9967d43d-e09a-45bd-90f7-9156ae874a00"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="b9f3f3bf05063b4eae1ad84dfe13935c00000000"/>
 		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="7bc8a629bc081642bd24aa06142cf07300000000"/>
+		<Metadata name="Subsystem.Рентабельность" id="740c7109-0efd-4a44-a82e-f4b44fa3d473" configVersion="bb6ae99c966844bba6f469a263af50bd00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

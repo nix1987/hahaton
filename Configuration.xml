@@ -250,6 +250,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Рентабельность</Subsystem>
 			<Catalog>Автомобили</Catalog>
 			<Catalog>Статьи</Catalog>
 			<Enum>ТипДвигателя</Enum>
@@ -257,6 +258,7 @@
 			<Enum>ТипОпераци</Enum>
 			<Report>ДашбордРентабельности</Report>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
+			<InformationRegister>СредниеЦены</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
