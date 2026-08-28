@@ -256,6 +256,7 @@
 			<StyleItem>СитидрайвТекст</StyleItem>
 			<StyleItem>СитидрайвФиолетовый</StyleItem>
 			<Style>Ситидрайв</Style>
+			<CommonPicture>Монетка</CommonPicture>
 			<HTTPService>АвтоИЦены</HTTPService>
 			<Catalog>Автомобили</Catalog>
 			<Catalog>Статьи</Catalog>
