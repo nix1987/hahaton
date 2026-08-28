@@ -256,6 +256,7 @@
 			<StyleItem>СитидрайвТекст</StyleItem>
 			<StyleItem>СитидрайвФиолетовый</StyleItem>
 			<Style>Ситидрайв</Style>
+			<HTTPService>АвтоИЦены</HTTPService>
 			<Catalog>Автомобили</Catalog>
 			<Catalog>Статьи</Catalog>
 			<Enum>ТипДвигателя</Enum>
@@ -266,7 +267,6 @@
 			<DataProcessor>ПриложениеКлиент</DataProcessor>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
 			<InformationRegister>СредниеЦены</InformationRegister>
-			<HTTPService>АвтоИЦены</HTTPService>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
