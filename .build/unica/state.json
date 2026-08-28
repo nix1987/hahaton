@@ -1,0 +1,22 @@
+{
+  "workspace_root": "c:\\Users\\d.proskurnin\\Desktop\\Рабочий стол\\Хатакон\\dashrent",
+  "workspace_epoch": 14327334330700278403,
+  "caches": {
+    "bsl_diagnostics": {
+      "status": "stale",
+      "epoch": 14327334330700278403
+    },
+    "dcs_graph": {
+      "status": "stale",
+      "epoch": 14327334330700278403
+    },
+    "metadata_graph": {
+      "status": "fresh",
+      "epoch": 14327334330700278403
+    },
+    "template_graph": {
+      "status": "stale",
+      "epoch": 14327334330700278403
+    }
+  }
+}
