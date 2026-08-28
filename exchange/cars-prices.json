@@ -1,0 +1,64 @@
+{
+	"Цены": [
+		{
+			"Идентификатор": "152d5c55-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1950000,
+			"Источник": "https://auto.ru/cars/changan/uni_t/2023-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c52-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 2480000,
+			"Источник": "https://auto.ru/cars/changan/uni_v/2024-year/all/"
+		},
+		{
+			"Идентификатор": "152d5c56-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 2180000,
+			"Источник": "https://auto.ru/cars/chery/arrizo_8/used/"
+		},
+		{
+			"Идентификатор": "152d5c57-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 2020000,
+			"Источник": "https://auto.ru/cars/chery/tiggo_7_pro_max/2024-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c5b-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1990000,
+			"Источник": "https://auto.ru/cars/used/sale/exeed/lx/1133365807-87245fce/"
+		},
+		{
+			"Идентификатор": "152d5c53-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1980000,
+			"Источник": "https://auto.ru/cars/gac/gs3/2024-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c59-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1920000,
+			"Источник": "https://auto.ru/cars/geely/coolray/2023-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c54-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 2350000,
+			"Источник": "https://auto.ru/cars/haval/h3/23927447/used/"
+		},
+		{
+			"Идентификатор": "152d5c58-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1730000,
+			"Источник": "https://auto.ru/cars/jac/js6/2023-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c5a-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 1540000,
+			"Источник": "https://auto.ru/cars/used/sale/skoda/rapid/1133230381-c8dfd765/"
+		},
+		{
+			"Идентификатор": "152d5c50-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 3175000,
+			"Источник": "https://auto.ru/cars/volkswagen/id4/2024-year/used/"
+		},
+		{
+			"Идентификатор": "152d5c51-a2dd-11f1-a998-88f4da5fcbd5",
+			"СредняяЦена": 2050000,
+			"Источник": "https://auto.ru/cars/moscvich/3e/used/"
+		}
+	]
+}

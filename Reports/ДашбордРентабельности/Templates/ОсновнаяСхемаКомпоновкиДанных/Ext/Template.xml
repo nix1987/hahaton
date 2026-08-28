@@ -182,6 +182,10 @@
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:conditionalAppearance>
 				<dcsset:item>
