@@ -18,6 +18,16 @@
 			<dataPath>СуммаРасходов</dataPath>
 			<field>СуммаРасходов</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПродажи</dataPath>
+			<field>СуммаПродажи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма продажи</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОперацииСАвто.Автомобиль КАК Автомобиль
@@ -68,15 +78,30 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
+	СредниеЦеныСрезПоследних.Автомобиль КАК Автомобиль,
+	СредниеЦеныСрезПоследних.СредняяЦена КАК СредняяЦена
+ПОМЕСТИТЬ ВТЦены
+ИЗ
+	РегистрСведений.СредниеЦены.СрезПоследних(, ) КАК СредниеЦеныСрезПоследних
+
+ИНДЕКСИРОВАТЬ ПО
+	Автомобиль
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
 	ВТАвтомобили.Автомобиль КАК Автомобиль,
 	ЕСТЬNULL(ВТДоходы.СуммаДоходов, 0) КАК СуммаДоходов,
-	ЕСТЬNULL(ВТРасходы.СуммаРасходов, 0) КАК СуммаРасходов
+	ЕСТЬNULL(ВТРасходы.СуммаРасходов, 0) КАК СуммаРасходов,
+	ЕСТЬNULL(ВТЦены.СредняяЦена, 0) КАК СуммаПродажи
 ИЗ
 	ВТАвтомобили КАК ВТАвтомобили
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТДоходы КАК ВТДоходы
 		ПО ВТАвтомобили.Автомобиль = ВТДоходы.Автомобиль
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТРасходы КАК ВТРасходы
-		ПО ВТАвтомобили.Автомобиль = ВТРасходы.Автомобиль</query>
+		ПО ВТАвтомобили.Автомобиль = ВТРасходы.Автомобиль
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТЦены КАК ВТЦены
+		ПО ВТАвтомобили.Автомобиль = ВТЦены.Автомобиль</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>Рентабельность</dataPath>
@@ -120,24 +145,6 @@
 			<v8:Type>xs:boolean</v8:Type>
 		</valueType>
 	</calculatedField>
-	<calculatedField>
-		<dataPath>СуммаПродажи</dataPath>
-		<expression>0</expression>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Сумма продажи</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:decimal</v8:Type>
-			<v8:NumberQualifiers>
-				<v8:Digits>15</v8:Digits>
-				<v8:FractionDigits>2</v8:FractionDigits>
-				<v8:AllowedSign>Any</v8:AllowedSign>
-			</v8:NumberQualifiers>
-		</valueType>
-	</calculatedField>
 	<totalField>
 		<dataPath>Рентабельность</dataPath>
 		<expression>Окр(ВЫБОР КОГДА Сумма(СуммаРасходов) = 0 ТОГДА 0 ИНАЧЕ (Сумма(СуммаДоходов) - Сумма(СуммаРасходов)) / Сумма(СуммаРасходов) * 100 КОНЕЦ, 4)</expression>
@@ -148,7 +155,7 @@
 	</totalField>
 	<totalField>
 		<dataPath>СуммаПродажи</dataPath>
-		<expression>Максимум(СуммаПродажи)</expression>
+		<expression>Сумма(СуммаПродажи)</expression>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
