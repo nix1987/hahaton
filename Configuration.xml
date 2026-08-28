@@ -265,6 +265,7 @@
 			<DataProcessor>ЗаполнениеСреднихЦен</DataProcessor>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
 			<InformationRegister>СредниеЦены</InformationRegister>
+			<HTTPService>АвтоИЦены</HTTPService>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

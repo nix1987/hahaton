@@ -80,18 +80,29 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>Рентабельность</dataPath>
-		<expression>ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ</expression>
+		<expression>Окр(ВЫБОР КОГДА СуммаРасходов = 0 ТОГДА 0 ИНАЧЕ (СуммаДоходов - СуммаРасходов) / СуммаРасходов * 100 КОНЕЦ, 4)</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Рентабельность %</v8:content>
 			</v8:item>
 		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=4</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
 		<valueType>
 			<v8:Type>xs:decimal</v8:Type>
 			<v8:NumberQualifiers>
-				<v8:Digits>10</v8:Digits>
-				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>4</v8:FractionDigits>
 				<v8:AllowedSign>Any</v8:AllowedSign>
 			</v8:NumberQualifiers>
 		</valueType>
@@ -129,7 +140,7 @@
 	</calculatedField>
 	<totalField>
 		<dataPath>Рентабельность</dataPath>
-		<expression>ВЫБОР КОГДА Сумма(СуммаРасходов) = 0 ТОГДА 0 ИНАЧЕ (Сумма(СуммаДоходов) - Сумма(СуммаРасходов)) / Сумма(СуммаРасходов) * 100 КОНЕЦ</expression>
+		<expression>Окр(ВЫБОР КОГДА Сумма(СуммаРасходов) = 0 ТОГДА 0 ИНАЧЕ (Сумма(СуммаДоходов) - Сумма(СуммаРасходов)) / Сумма(СуммаРасходов) * 100 КОНЕЦ, 4)</expression>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -172,6 +183,87 @@
 					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>true</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">25</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:Red</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рентабельность больше 25%</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>true</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">15</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:LimeGreen</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рентабельность меньше 15%</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>AndGroup</dcsset:groupType>
+							<dcsset:use>true</dcsset:use>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:use>true</dcsset:use>
+								<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
+								<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">15</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:use>true</dcsset:use>
+								<dcsset:left xsi:type="dcscor:Field">Рентабельность</dcsset:left>
+								<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:decimal">25</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:Yellow</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рентабельность от 15% до 25%</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
