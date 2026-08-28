@@ -51,8 +51,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="db9e4879-5aa5-4ca5-b1bb-0302c6799d41" configVersion="fb581e20c3fb7b4090aedc25547b15ae00000000"/>
 		<Metadata name="Report.ДашбордРентабельности" id="0094bb67-5c94-4034-bf31-45474743ab7d" configVersion="c37937409d780247bba323dd2cff766700000000"/>
-		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459" configVersion="b7c77102daf18e4db8b58438ebe0927a00000000"/>
-		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a14c296a-f8c9-4341-8dca-15b6d5037459.0" configVersion="60e692c497055f43896611b4725ff92b00000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных" id="a14c296a-f8c9-4341-8dca-15b6d5037459" configVersion="7db5d3e258f336489ab9f7cdf56492cd00000000"/>
+		<Metadata name="Report.ДашбордРентабельности.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a14c296a-f8c9-4341-8dca-15b6d5037459.0" configVersion="baeb23e44323de42a17fc5945c52a25a00000000"/>
 		<Metadata name="Style.Ситидрайв" id="49076e28-92a2-4104-853a-dfb4a11149f6" configVersion="8fcf5fcaded6cd47900ae6f50911ae2e00000000"/>
 		<Metadata name="Style.Ситидрайв.Style" id="49076e28-92a2-4104-853a-dfb4a11149f6.0" configVersion="06e358227b8cb84eb2e9513c84aa551f00000000"/>
 		<Metadata name="StyleItem.СитидрайвЗеленый" id="ca99ca7a-9b5f-4c19-a087-d9c2c6981649" configVersion="13f48e1e9c7558498a0e93c55de2331900000000"/>
