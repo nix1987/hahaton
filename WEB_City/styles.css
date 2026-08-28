@@ -1,0 +1,283 @@
+:root {
+  --text: #1c2434;
+  --muted: #8b93a5;
+  --plate: #6e7686;
+  --line: #eceff4;
+  --sheet: #ffffff;
+  --page: #dfe3ea;
+  --mint: #e7f6ec;
+  --lilac: #ece8f8;
+  --slate: #e8eef4;
+  --badge: #2f9e5a;
+  --promo: #6b4de0;
+  --chip: #f0f2f6;
+  --radius: 28px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family: Inter, "Segoe UI", sans-serif;
+  background: var(--page);
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  padding: 24px 12px;
+}
+
+.sheet {
+  width: min(430px, 100%);
+  background: var(--sheet);
+  border-radius: 36px;
+  padding: 22px 18px 18px;
+  box-shadow: 0 18px 50px rgba(28, 36, 52, 0.08);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 168px;
+  gap: 10px;
+  align-items: start;
+}
+
+.plate {
+  color: var(--plate);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.title {
+  margin-top: 2px;
+  font-size: 34px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.meta {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.meta__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  color: #5d6573;
+}
+
+.chevron {
+  width: 14px;
+  height: 14px;
+  color: #9aa2b1;
+}
+
+.chevron--lg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #c0c6d2;
+}
+
+.autostart {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.autostart__icon,
+.insurance__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--chip);
+  display: grid;
+  place-items: center;
+  color: #5b6474;
+}
+
+.autostart__icon svg,
+.insurance__icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.hero__media {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.car {
+  width: 100%;
+  height: 92px;
+  object-fit: contain;
+  object-position: right center;
+}
+
+.btn {
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 16px;
+  min-height: 36px;
+  padding: 8px 10px;
+}
+
+.btn--ghost {
+  background: #eef0f4;
+  color: var(--text);
+}
+
+.btn--buy {
+  background: #e8ebf1;
+  color: var(--text);
+  box-shadow: inset 0 0 0 1px #e2e6ee;
+}
+
+.insurance {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 36px 1fr 18px;
+  gap: 12px;
+  align-items: start;
+  text-decoration: none;
+  color: inherit;
+}
+
+.insurance__title {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.insurance__sub {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.promo {
+  display: inline-block;
+  margin-top: 8px;
+  background: var(--promo);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 7px 10px;
+  border-radius: 999px;
+}
+
+.tariffs {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.card {
+  position: relative;
+  border-radius: 22px;
+  padding: 18px 14px 14px;
+  overflow: hidden;
+  min-height: 92px;
+}
+
+.card--mint {
+  grid-row: span 2;
+  background: var(--mint);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--lilac {
+  background: var(--lilac);
+}
+
+.card--slate {
+  background: var(--slate);
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--badge);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+
+.old-price {
+  color: #a7b0bd;
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
+.price {
+  margin-top: 2px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  padding-top: 10px;
+}
+
+.card__caption {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+@media (max-width: 380px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 140px;
+  }
+}
