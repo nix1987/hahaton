@@ -1,0 +1,10 @@
+﻿
+[16:54:47] dir=C:\inetpub\wwwroot\InfoBase2
+[16:54:49] webinst exit=0
+[16:54:49] 
+Публикация выполнена
+
+[16:54:49] vrd restored
+[16:54:49] file default.vrd 821
+[16:54:49] file web.config 374
+[16:54:49] SUCCESS

@@ -1,0 +1,33 @@
+﻿
+C:\Users\n.voroncov обработанный файл: C:\Users\n.voroncov
+Успешно обработано 1 файлов; не удалось обработать 0 файлов
+
+C:\Users\n.voroncov\Documents обработанный файл: C:\Users\n.voroncov\Documents
+Успешно обработано 1 файлов; не удалось обработать 0 файлов
+
+C:\Users\n.voroncov\Documents\InfoBase2 обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2
+Успешно обработано 1 файлов; не удалось обработать 0 файлов
+
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.1CD
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.1CD.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.1CL
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.1CL.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.cgr
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8.cgr.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8JobScheduler
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8Log
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8snc.1CD
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8snc.1CD.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8snc.1CL
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8snc.1CL.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8tmp.1CD
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8tmp.1CD.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8tmp.1CL
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8tmp.1CL.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8JobScheduler\exec.lck.cfl
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8Log\1Cv8.lgf
+обработанный файл: C:\Users\n.voroncov\Documents\InfoBase2\1Cv8Log\20260824000000.lgp
+Успешно обработано 20 файлов; не удалось обработать 0 файлов
+
+DONE

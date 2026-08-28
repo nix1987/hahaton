@@ -263,6 +263,7 @@
 			<Enum>ТипОпераци</Enum>
 			<Report>ДашбордРентабельности</Report>
 			<DataProcessor>ЗаполнениеСреднихЦен</DataProcessor>
+			<DataProcessor>ПриложениеКлиент</DataProcessor>
 			<InformationRegister>ОперацииСАвто</InformationRegister>
 			<InformationRegister>СредниеЦены</InformationRegister>
 			<HTTPService>АвтоИЦены</HTTPService>
